@@ -15,7 +15,7 @@ colours = []
 for c in continents:  # appends colours to each continent as it loops through list
     colours.append(dic[c])
 
-# Designs Scatter plot graph
+# Design Scatter plot graph
 plt.scatter(x, y, s=area, c=colours, cmap="jet")
 plt.title("Scatter plot representing GDP vs life expentancy and includes population size")
 plt.xlabel("GDP per capita")
